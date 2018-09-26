@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './style.scss';
-import kelvinToFahrenheit from 'kelvin-to-fahrenheit';
+import KelvinToFahrenheit from '../../utils/KelvinToFahrenheit';
 import cloudy from '../../../assets/cloudy.svg';
 import rainy  from '../../../assets/rainy.svg';
 import sunny from '../../../assets/sunny.svg';
@@ -25,7 +25,7 @@ const ForecastDay = (props) => {
             <div className={style.displayContainer}><span className={style.month}>{monthNames[props.date.getMonth()].substring(0, 3)}</span>
                 <span className={style.day}>{props.date.getDate()}</span></div>
             <div><img className={style.image} src={imageToLoad} /></div>
-            <div className={style.displayContainer}><span>{Math.floor(kelvinToFahrenheit(props.low))}</span><span>{Math.floor(kelvinToFahrenheit(props.high))}</span></div>
+            <div className={style.displayContainer}><span>{Math.floor(KelvinToFahrenheit.convert(props.low))}</span><span>{Math.floor(KelvinToFahrenheit.convert(props.high))}</span></div>
         </div>
     );
 }

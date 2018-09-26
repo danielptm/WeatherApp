@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6d82c7-9bc4-4a6e-b613-f53001976e5c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App/utils/KelvinToFahrenheit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/components/current-day/CurrentDay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/components/current-day/CurrentDay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/components/current-day/CurrentDay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/components/current-day/CurrentDay.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App/components/forecast-day/ForecastDay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/components/forecast-day/ForecastDay.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,32 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForecastDay.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App/components/forecast-day/ForecastDay.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CurrentDay.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App/components/current-day/CurrentDay.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="405">
+              <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -56,11 +32,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentDay.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App/components/current-day/CurrentDay.scss">
+      <file leaf-file-name="CurrentWeather.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/components/current-weather/CurrentWeather.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ForecastDay.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App/components/forecast-day/ForecastDay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KelvinToFahrenheit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App/utils/KelvinToFahrenheit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -78,10 +71,12 @@
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/App/components/forecast-day/style.scss" />
         <option value="$PROJECT_DIR$/src/App/App.scss" />
-        <option value="$PROJECT_DIR$/src/App/components/forecast-day/ForecastDay.js" />
         <option value="$PROJECT_DIR$/src/App/App.js" />
-        <option value="$PROJECT_DIR$/src/App/components/current-day/CurrentDay.js" />
         <option value="$PROJECT_DIR$/src/App/components/current-day/CurrentDay.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/App/utils/KelvinToFahrenheit.js" />
+        <option value="$PROJECT_DIR$/src/App/components/current-day/CurrentDay.js" />
+        <option value="$PROJECT_DIR$/src/App/components/forecast-day/ForecastDay.js" />
       </list>
     </option>
   </component>
@@ -101,9 +96,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -158,14 +153,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="current-day" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tuttle_weather_portland" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tuttle_weather_portland" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="forecast-day" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -211,12 +198,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537900781541</updated>
-      <workItem from="1537900782857" duration="9711000" />
+      <workItem from="1537900782857" duration="10268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9711000" />
+    <option name="totallyTimeSpent" value="10268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -226,11 +213,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299389" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32983193" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.34033614" />
+      <window_info anchor="bottom" id="Terminal" weight="0.34033614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -284,9 +271,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/cloudy.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/components/current-weather/CurrentWeather.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -328,6 +312,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/components/current-day/CurrentDay.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -338,27 +329,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/utils/KelvinToFahrenheit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/components/current-day/CurrentDay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="405">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/components/current-weather/CurrentWeather.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/components/forecast-day/ForecastDay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/components/current-day/CurrentDay.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="435">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

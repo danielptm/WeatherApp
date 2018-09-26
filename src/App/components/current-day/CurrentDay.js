@@ -1,5 +1,5 @@
 import React from 'react'
-import kelvinToFahrenheit from 'kelvin-to-fahrenheit';
+import KelvinToFahrenheit from '../../utils/KelvinToFahrenheit';
 import style from './CurrentDay.scss';
 import cloudy from '../../../assets/cloudy.svg';
 import rainy  from '../../../assets/rainy.svg';
@@ -24,8 +24,8 @@ const CurrentDay = (props) => {
           </div>
           <div className={style.metrics}>
               <div>Today:</div>
-            <div>Low: {Math.floor(kelvinToFahrenheit(props.low))}</div>
-            <div>High: {Math.floor(kelvinToFahrenheit(props.high))}</div>
+            <div>Low: {Math.floor(KelvinToFahrenheit.convert(props.low))}</div>
+            <div>High: {Math.floor(KelvinToFahrenheit.convert(props.high))}</div>
             <div>Humidity: {props.humidity}</div>
           </div>
       </div>
